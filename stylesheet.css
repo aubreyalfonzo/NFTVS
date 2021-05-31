@@ -8,7 +8,7 @@ html.ch{
 
 body.cb{
 	margin: 0;
-	overflow: hidden;
+	overflow: scroll;
 	background-color: #000000;
 	z-index: 1;
 }
