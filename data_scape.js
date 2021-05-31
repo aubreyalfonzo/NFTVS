@@ -9,8 +9,8 @@ let img;
 let terrain = [];
 
 function preload() {
-	data = loadTable('https://raw.githubusercontent.com/aubreyalfonzo/aubreyalfonzo.github.io/master/data/ap.csv', 'csv', 'header');
-	img = loadImage('https://raw.githubusercontent.com/aubreyalfonzo/aubreyalfonzo.github.io/master/data/ME.png');
+	data = loadTable('https://raw.githubusercontent.com/aubreyalfonzo/NFTVS/master/data/ap.csv', 'csv', 'header');
+	img = loadImage('https://raw.githubusercontent.com/aubreyalfonzo/NFTVS/master/data/ME.png');
 }
 
 function setup() {
