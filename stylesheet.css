@@ -1,0 +1,30 @@
+html.ch{
+	margin:0;
+	padding:0;
+	background-color: #000000;
+				
+}
+
+
+body.cb{
+	margin: 0;
+	overflow: hidden;
+	background-color: #000000;
+	z-index: 1;
+}
+
+/*.container{
+	position: fixed;
+}*/
+
+.contFrame{
+	position: fixed;
+	top: 5%;
+  	left: 5%;
+  	bottom: 5%;
+  	right: 5%;
+	width: 90%;
+	height: 90%;
+	border: .5px dashed white;
+
+}
