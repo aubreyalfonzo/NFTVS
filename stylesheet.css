@@ -39,29 +39,4 @@ a:hover{
 
 }
 
-.header{
-	text-align: center;
-	/*background-color: #000000;*/
-	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
-	position: fixed;
-	width: 100%;
-	border: .5px dashed white;
-	z-index: 1;
-	background-color: #000000;
 
-}
-
-@media screen and (max-width:  1080px){
-	.header{
-	text-align: center;
-	/*background-color: #000000;*/
-	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
-	position: fixed;
-	width: 100%;
-	border: .5px dashed white;
-	z-index: 1;
-	background-color: #000000;
-
-}
