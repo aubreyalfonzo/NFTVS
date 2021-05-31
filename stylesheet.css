@@ -28,3 +28,18 @@ body.cb{
 	border: .5px dashed white;
 
 }
+
+@media screen and (max-width:  768px){
+	.contFrame{
+	position: fixed;
+	top: 5%;
+  	left: 5%;
+  	bottom: 5%;
+  	right: 5%;
+	width: 90%;
+	height: 90%;
+	border: .5px dashed white;
+
+}
+
+}
