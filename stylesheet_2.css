@@ -168,7 +168,7 @@ hr.a{
 
 }
 
-@media screen and (max-width:  768px){
+@media screen and (max-width:  600px){
 	.grid-container{
 	display: grid;
 	grid-template-columns: auto;
