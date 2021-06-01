@@ -98,6 +98,10 @@ hr.a{
 	height: 0;
 }
 
+.espace{
+	height: 4%;
+}
+
 /* /////////////////////// custom divs ////////////////////// */
 
 .enter{
@@ -179,6 +183,22 @@ hr.a{
 .lab_img{
 	border: .5px dashed white;
 
+}
+
+.infoCont{
+	padding: 1%;
+	padding-right: 2%;
+	position: fixed;
+	width: 35%;
+	height: 100%;
+	border-right: .5px dashed white;
+	overflow: scroll;
+}
+
+.menuCont{
+	padding: 1%;
+	position: fixed;
+	left: 40%;
 }
 
 /* /////////////////// SMALL SCREEN  ////////////////////// */
