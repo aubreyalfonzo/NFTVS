@@ -92,6 +92,10 @@ hr.a{
   border: .5px dotted white;
 }
 
+img{
+	width: 100%;
+}
+
 
 ::-webkit-scrollbar{
 	width: 0;
@@ -197,8 +201,11 @@ hr.a{
 
 .menuCont{
 	padding: 1%;
+	width: 57%;
+	height: 100%;
 	position: fixed;
 	left: 40%;
+	overflow: scroll;
 }
 
 /* /////////////////// SMALL SCREEN  ////////////////////// */
@@ -234,4 +241,23 @@ hr.a{
 	-webkit-backface-visibility: hidden;
 
 }	
+
+.infoCont{
+	padding: 1%;
+	padding-top: 3%;
+	position: relative;
+	width: 99%;
+	/*height: 100%;*/
+	border-right: .5px dashed white;
+	/*overflow: scroll;*/
+}
+
+.menuCont{
+	padding: 1%;
+	width: 99%;
+	left: 0;
+	/*height: 100%;*/
+	position: relative;
+	/*overflow: scroll;*/
+}
 }
