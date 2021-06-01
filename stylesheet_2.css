@@ -305,7 +305,7 @@ button{
 	background-color: #000000
 }
 
-.active, .collapsible:hover{
+.collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
 
