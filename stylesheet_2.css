@@ -1,4 +1,4 @@
-/* global values  */
+/* ////////////////// global values /////////////////// */
 
 html.main{
 	margin:0;
@@ -98,7 +98,7 @@ hr.a{
 	height: 0;
 }
 
-/* custom divs */
+/* /////////////////////// custom divs ////////////////////// */
 
 .enter{
 	text-align: center;
@@ -168,6 +168,21 @@ hr.a{
 
 }
 
+.labtxt{
+	border: .5px dashed white;
+}
+/* images */
+
+.img1{
+}
+
+.lab_img{
+	border: .5px dashed white;
+
+}
+
+/* /////////////////// SMALL SCREEN  ////////////////////// */
+
 @media screen and (max-width:  600px){
 	.grid-container{
 	display: grid;
@@ -199,17 +214,4 @@ hr.a{
 	-webkit-backface-visibility: hidden;
 
 }	
-}
-
-.labtxt{
-	border: .5px dashed white;
-}
-/* images */
-
-.img1{
-}
-
-.lab_img{
-	border: .5px dashed white;
-
 }
