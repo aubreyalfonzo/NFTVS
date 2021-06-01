@@ -248,7 +248,7 @@ button{
 }
 
 .cont{
-	padding-top: 10%;
+	padding-top: 7%;
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-bottom: 1%;
@@ -265,6 +265,7 @@ button{
 	width: 99%;
 	display: none;
 	/*overflow: scroll;*/
+	-webkit-backface-visibility: hidden;
 }
 
 .menuCont{
