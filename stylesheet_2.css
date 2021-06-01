@@ -196,6 +196,7 @@ hr.a{
 	padding-bottom: 1%;
 	/*overflow: scroll;*/
 	background-color: #000000;
+	-webkit-backface-visibility: hidden;
 
 }	
 }
