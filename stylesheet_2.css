@@ -265,7 +265,6 @@ button{
 	width: 99%;
 	display: none;
 	/*overflow: scroll;*/
-	-webkit-backface-visibility: hidden;
 }
 
 .menuCont{
