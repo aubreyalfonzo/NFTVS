@@ -71,7 +71,7 @@ function draw() {
 
 	translate(0, height / 2.2);
 	rotateY(PI / 1.335);
-	let manip = sin(random(-width, width)+frameCount*.005);
+	let manip = sin(random(-width*2, width*2)+frameCount*.005);
 	rotateY(manip);
 	rotateX(PI / 2);
 
