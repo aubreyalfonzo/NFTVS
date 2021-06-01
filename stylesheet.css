@@ -16,6 +16,7 @@ body.cb{
 
 .contFrame{
 	position: fixed;
+	overflow: hidden;
 	top: 5%;
   	left: 5%;
   	bottom: 5%;
