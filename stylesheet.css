@@ -24,6 +24,23 @@ body.cb{
 	width: 90%;
 	height: 90%;
 	border: 1px dashed white;
+}
+
+/* /////////////////// MEDIA SCREEN  ////////////////////// */
+
+@media screen and (max-width:  1200px){
+
+	.contFrame{
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	padding: 0%;
+	width: 99.5%;
+	height: 99.5%;
+	border: 1px dashed white;
+
+}
 
 }
 
@@ -37,8 +54,8 @@ body.cb{
 	top: 0;
 	overflow: hidden;
 	padding: 0%;
-	width: 99%;
-	height: 99%;
+	width: 99.5%;
+	height: 99.5%;
 	border: 1px dashed white;
 
 }
