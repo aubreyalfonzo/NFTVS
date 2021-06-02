@@ -26,3 +26,21 @@ body.cb{
 	border: 1px dashed white;
 
 }
+
+/* /////////////////// SMALL SCREEN  ////////////////////// */
+
+@media screen and (max-width:  600px){
+
+.contFrame{
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	padding: 0%;
+	width: 99%;
+	height: 99%;
+	border: 1px dashed white;
+
+}
+
+}
