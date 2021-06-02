@@ -4,7 +4,7 @@ let cols, rows;
 let scl = 5;
 let num, num2;
 let rc, m, m2, caps;
-let img, img2;
+let img;
 
 let terrain = [];
 
@@ -16,30 +16,12 @@ function preload() {
 function setup() {
 
 	createCanvas(windowWidth, windowHeight, WEBGL);
-	// frameRate(1);
+	frameRate(1);
 	
 	img.resize(width/2, height/2);
-	// background(0);
-
-	fill(200, 200, 200);
-	// noFill();
-	noStroke();
-	// strokeWeight(.2);
-	// stroke(0);
-
-	// directionalLight(255, 255, 255, 0, height, 0);
-
-	// sphere(200);
 
 
-
-}
-
-
-function draw() {
-		// background(0);
-		
-		rc = data.getRowCount();
+	rc = data.getRowCount();
 	cols = rc;
 	rows = rc;
 
@@ -67,14 +49,31 @@ function draw() {
 		}
 	}
 
+	// background(0);
+
+	fill(200, 200, 200);
+	// noFill();
+	noStroke();
+	// strokeWeight(.2);
+	// stroke(0);
+
+	// directionalLight(255, 255, 255, 0, height, 0);
+
+	// sphere(200);
+
+
+
+}
+
+
+function draw() {
+		// background(0);
 
 	translate(0, height / 2.2);
-	// rotateY(PI / 1.335);
-	rotateY(mouseY);
-	// let manip = sin(random(-width, width)+frameCount*.005);
-	// rotateY(manip);
-	// rotateX(PI / 2);
-	rotateX(mouseX);
+	rotateY(PI / 1.335);
+	let manip = sin(random(-width*2, width*2)+frameCount*.005);
+	rotateY(manip);
+	rotateX(PI / 2);
 
 
 	// lights();
@@ -103,11 +102,10 @@ function draw() {
 
 		endShape();
 	}
-	
 
 
 }
 
-// function mouseClicked() {
-// 	location.reload(true);
-// }
+function mouseClicked() {
+	location.reload(true);
+}
