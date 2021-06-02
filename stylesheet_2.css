@@ -196,10 +196,6 @@ button{
 	border-left: .5px dashed white;
 }
 
-/*.dataCont{
-	display: none;
-}*/
-
 .collapsible{
 	/*border-style: none;
 	margin: 0;*/
@@ -232,25 +228,12 @@ button{
 /* /////////////////// SMALL SCREEN  ////////////////////// */
 
 @media screen and (max-width:  600px){
-	.grid-container{
+.grid-container{
 	display: grid;
 	grid-template-columns: auto;
 
 }
 
-	.grid-container2{
-	display: grid;
-	grid-template-columns: auto;
-
-}
-
-.grid-container3{
-	display: grid;
-	grid-template-columns: auto auto;
-	grid-column-gap: 3%;
-	/*border: .5px dashed white;*/
-
-}
 
 .cont{
 	padding-top: 7%;
@@ -282,18 +265,6 @@ button{
 	/*overflow: scroll;*/
 }
 
-/*.datasets{
-	display: none;
-}
-*/
-/*.dataCont{
-	padding: 1%;*/
-	/*padding-top: 3%;*/
-/*	position: relative;
-	width: 99%;
-	display: none;
-}*/
-
 .collapsible{
 	padding: 1%;
 	border-style: none;
@@ -310,7 +281,7 @@ button{
 	background-color: #000000
 }
 
-.collapsible:hover{
+.active, .collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
 
