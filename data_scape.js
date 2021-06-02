@@ -16,7 +16,7 @@ function preload() {
 function setup() {
 
 	createCanvas(windowWidth, windowHeight, WEBGL);
-	frameRate(1);
+	frameRate(15);
 	
 	img.resize(width/2, height/2);
 
@@ -62,7 +62,6 @@ function setup() {
 	// sphere(200);
 
 
-
 }
 
 
@@ -71,9 +70,11 @@ function draw() {
 
 	translate(0, height / 2.2);
 	rotateY(PI / 1.335);
-	let manip = sin(random(-width*2, width*2)+frameCount*.005);
-	rotateY(manip);
 	rotateX(PI / 2);
+	// let manip = sin(random(-width*2, width*2)+frameCount*.005);
+	let manip = frameCount*.005 + (mouseX + mouseY)/100;
+	rotateY(manip);
+	rotateX(manip);
 
 
 	// lights();

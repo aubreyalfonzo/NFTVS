@@ -104,22 +104,15 @@ img{
 	height: 4%;
 }
 
-button{
+li{
+	float: left;
+	/*border: .5px dashed white;*/
+	/*width: 49.8%;*/
+	width: 50%;
 }
+
 
 /* /////////////////////// custom divs ////////////////////// */
-
-.enter{
-	text-align: center;
-	/*background-color: #000000;*/
-	font-family: 'Roboto Mono', monospace;
-	font-size: 20px;
-	position: fixed;
-	width: 100%;
-	border: .5px dashed white;
-	z-index: 1;
-
-}
 
 .header{
 	text-align: center;
@@ -131,17 +124,8 @@ button{
 	border: .5px dashed white;
 	z-index: 1;
 	background-color: #000000;
+	float: all;
 
-}
-
-
-.mainNav{
-	text-align: left;
-	font-family: 'Roboto Mono', monospace;
-	color: #ffffff;
-	font-size: 30px;
-	position: relative;
-	/*padding-top: 4%;*/
 }
 
 .grid-container{
@@ -149,6 +133,13 @@ button{
 	grid-template-columns: auto auto auto;
 	grid-column-gap: 3%;
 	grid-row-gap: 3%;
+	/*border: .5px dashed white;*/
+
+}
+
+.grid-container2{
+	display: grid;
+	grid-template-columns: auto auto;
 	/*border: .5px dashed white;*/
 
 }
@@ -174,9 +165,9 @@ button{
 
 .infoCont{
 	padding: 1%;
-	padding-right: 2%;
+	/*padding-right: 2%;*/
 	position: fixed;
-	width: 35%;
+	width: 36%;
 	height: 100%;
 	/*border-right: .5px dashed white;*/
 	overflow: scroll;
@@ -194,18 +185,7 @@ button{
 }
 
 .collapsible{
-	/*border-style: none;
-	margin: 0;*/
 	display: none;
-	/*position: relative;
-	width: 37%;
-	border: .5px dashed white;
-	text-align: center;
-	font-family: 'Roboto Mono', monospace;
-	color: #ffffff;
-	font-size: 20px;
-	background-color: #000000;*/
-
 }
 
 /*.collapsible:hover{
@@ -218,6 +198,12 @@ button{
 
 @media screen and (max-width:  1200px){
 
+/*li{
+	float: left;
+	border: .5px dashed white;
+	width: 49.7%;
+}*/
+
 }
 
 
@@ -225,7 +211,20 @@ button{
 /* /////////////////// SMALL SCREEN  ////////////////////// */
 
 @media screen and (max-width:  600px){
+
+/*li{
+	float: left;
+	border: .5px dashed white;
+	width: 49.6%;
+}*/
+
 .grid-container{
+	display: grid;
+	grid-template-columns: auto;
+
+}
+
+.grid-container2{
 	display: grid;
 	grid-template-columns: auto;
 
