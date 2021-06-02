@@ -92,6 +92,22 @@ hr.a{
 
 img{
 	width: 100%;
+
+}
+
+.imgLink{
+
+	width: 100%;
+	border: .5px dotted white;
+	transition: .2s;
+
+}
+
+.imgLink:hover{
+
+	width: 100%;
+	opacity: 0.95;
+
 }
 
 
@@ -203,6 +219,21 @@ li{
 	border: .5px dashed white;
 	width: 49.7%;
 }*/
+
+.imgLink{
+
+	width: 100%;
+	border-style: none;
+	transition: .2s;
+
+}
+
+.imgLink:hover{
+
+	width: 100%;
+	opacity: 0.95;
+
+}
 
 }
 
