@@ -10,15 +10,16 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   frameRate(10);
+  background(220);
   
-  noFill();
-  strokeWeight(.1);
+  // noFill();
+  // strokeWeight(.1);
 
 }
 
 function draw() {
-  background(220);
-  // normalMaterial();
+  // background(220);
+  normalMaterial();
   
   translate(0, height / 2.2);
 	rotateY(PI / 1.335);
