@@ -2,7 +2,7 @@ let obj = [];
 let index = 0;
 
 function preload(){
-  for(i = 0; i < 6; i++){
+  for(i = 0; i < 7; i++){
   obj[i] = loadModel('https://raw.githubusercontent.com/aubreyalfonzo/NFTVS/master/data/OBJS/DS_' + i + '.obj');
 }
 }
