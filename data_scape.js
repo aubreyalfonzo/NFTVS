@@ -10,7 +10,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   frameRate(10);
-  background(220);
+  background(0);
   
   // noFill();
   // strokeWeight(.1);
