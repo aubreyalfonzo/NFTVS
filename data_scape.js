@@ -34,7 +34,7 @@ function draw() {
 
 }
 
-function mouseClicked() {
+function mousePressed() {
   index = index + 1;
   
   if(index == obj.length){
