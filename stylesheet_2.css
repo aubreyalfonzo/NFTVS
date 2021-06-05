@@ -162,6 +162,11 @@ marquee{
 
 }
 
+.cntrls{
+	top: 95%;
+	position: fixed;
+}
+
 .tvMenu{
 	text-align: center;
 	/*background-color: #000000;*/
