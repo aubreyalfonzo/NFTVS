@@ -11,6 +11,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   frameRate(10);
   background(0);
+
+  
   
   // noFill();
   // strokeWeight(.1);

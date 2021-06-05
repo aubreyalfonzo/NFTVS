@@ -40,6 +40,18 @@ a:hover{
 
 }
 
+a.imgL{
+	text-decoration: none;
+	display: block;
+
+}
+
+a.imgL:hover{
+	text-decoration: none;
+	background-color: #000000;
+
+}
+
 
 h1{
 	text-align: center;
@@ -106,7 +118,7 @@ img{
 .imgLink:hover{
 
 	width: 100%;
-	opacity: 0.95;
+	opacity: 0.5;
 
 }
 
@@ -117,15 +129,21 @@ img{
 }
 
 .espace{
-	height: 4%;
+	height: 5%;
 }
 
 li{
 	float: left;
 	/*border: .5px dashed white;*/
 	/*width: 49.8%;*/
-	width: 50%;
+	width: 33.3%;
 }
+
+marquee{
+	position: fixed;
+	width: 95.5%;
+}
+
 
 
 /* /////////////////////// custom divs ////////////////////// */
@@ -142,6 +160,18 @@ li{
 	background-color: #000000;
 	float: all;
 
+}
+
+.tvMenu{
+	text-align: center;
+	/*background-color: #000000;*/
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	/*background-color: #000000;*/
+	float: all;
 }
 
 .grid-container{
@@ -200,10 +230,23 @@ li{
 	border-left: .5px dashed white;
 }
 
+.nftvCont{
+	padding: 1%;
+	width: 95.5%;
+	height: 95.5%;
+	position: fixed;
+	/*left: 40%;*/
+	overflow: scroll;
+	/*border-left: .5px dashed white;*/
+}
+
 .collapsible{
 	display: none;
 }
 
+.dataSets{
+	padding-top: 1%;
+}
 /*.collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
@@ -231,7 +274,7 @@ li{
 .imgLink:hover{
 
 	width: 100%;
-	opacity: 0.95;
+	opacity: 0.5;
 
 }
 
@@ -269,7 +312,7 @@ li{
 	padding-bottom: 1%;
 	/*overflow: scroll;*/
 	background-color: #000000;
-	-webkit-backface-visibility: hidden;
+	/*-webkit-backface-visibility: hidden;*/
 
 }	
 
@@ -292,8 +335,23 @@ li{
 	/*overflow: scroll;*/
 }
 
-.collapsible{
+.nftvCont{
 	padding: 1%;
+	width: 99%;
+	left: 0;
+	/*height: 100%;*/
+	position: relative;
+	border-style: none;
+}
+
+.dataSets{
+	padding-top: 6%;
+	display: none;
+}
+
+
+.collapsible{
+	padding: 0%;
 	border-style: none;
 	margin: 0;
 	display: block;
@@ -308,7 +366,7 @@ li{
 	background-color: #000000
 }
 
-.active, .collapsible:hover{
+.collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
 
