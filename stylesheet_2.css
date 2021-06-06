@@ -139,6 +139,11 @@ li{
 	width: 33.3%;
 }
 
+li.subLi{
+	float:  left;
+	width: 25%;
+}
+
 marquee{
 	position: fixed;
 	width: 95.5%;
@@ -176,7 +181,7 @@ marquee{
 	width: 100%;
 	z-index: 1;
 	/*background-color: #000000;*/
-	float: all;
+	float: left;
 }
 
 .grid-container{
@@ -225,7 +230,7 @@ marquee{
 	/*display: none;*/
 }
 
-.menuCont{
+.mainCont{
 	padding: 1%;
 	width: 57%;
 	height: 100%;
@@ -330,7 +335,7 @@ marquee{
 	/*overflow: scroll;*/
 }
 
-.menuCont{
+.mainCont{
 	padding: 1%;
 	width: 99%;
 	left: 0;
