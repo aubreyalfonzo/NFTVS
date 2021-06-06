@@ -99,7 +99,7 @@ p{
 }
 
 hr.a{
-  border-top: .5px dotted white;
+  border-top: thin dotted white;
 }
 
 img{
@@ -110,7 +110,7 @@ img{
 .imgLink{
 
 	width: 100%;
-	border: .5px dotted white;
+	border: thin dotted white;
 	transition: .2s;
 
 }
@@ -149,6 +149,19 @@ marquee{
 	width: 95.5%;
 }
 
+marquee.info{
+	position: relative;
+	width: 100%;
+}
+
+.collapsible{
+	display: none;
+}
+
+.subCont{
+	padding-top: 1%;
+}
+
 
 
 /* /////////////////////// custom divs ////////////////////// */
@@ -160,7 +173,7 @@ marquee{
 	font-size: 20px;
 	position: fixed;
 	width: 100%;
-	border: .5px dashed white;
+	border: thin dashed white;
 	z-index: 1;
 	background-color: #000000;
 	float: all;
@@ -207,7 +220,7 @@ marquee{
 }
 
 .labtxt{
-	border: .5px dashed white;
+	border: .thin dashed white;
 }
 /* images */
 
@@ -215,7 +228,7 @@ marquee{
 }
 
 .lab_img{
-	border: .5px dashed white;
+	border: thin dashed white;
 
 }
 
@@ -237,7 +250,7 @@ marquee{
 	position: fixed;
 	left: 40%;
 	overflow: scroll;
-	border-left: .5px dashed white;
+	border-left: thin dashed white;
 }
 
 .nftvCont{
@@ -250,13 +263,6 @@ marquee{
 	/*border-left: .5px dashed white;*/
 }
 
-.collapsible{
-	display: none;
-}
-
-.dataSets{
-	padding-top: 1%;
-}
 /*.collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
@@ -285,6 +291,73 @@ marquee{
 
 	width: 100%;
 	opacity: 0.5;
+
+}
+
+.cont{
+	padding-top: 4%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 1%;
+	/*overflow: scroll;*/
+	background-color: #000000;
+	/*-webkit-backface-visibility: hidden;*/
+
+}	
+
+.infoCont{
+	padding: 1%;
+	/*padding-top: 3%;*/
+	position: relative;
+	width: 99%;
+	display: none;
+	/*overflow: scroll;*/
+}
+
+.mainCont{
+	padding: 1%;
+	width: 99%;
+	left: 0;
+	/*height: 100%;*/
+	position: relative;
+	border-style: none;
+	/*overflow: scroll;*/
+}
+
+.nftvCont{
+	padding: 1%;
+	width: 99%;
+	left: 0;
+	/*height: 100%;*/
+	position: relative;
+	border-style: none;
+}
+
+.subCont{
+	padding-top: 6%;
+	display: none;
+}
+
+
+.collapsible{
+	padding: 0%;
+	border-style: none;
+	margin: 0;
+	display: block;
+	position: relative;
+	float: left;
+	width: 100%;
+	border: thin dashed white;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #000000
+}
+
+.collapsible:hover{
+	background-color: #ffffff;
+	color: #000000;
 
 }
 
@@ -354,7 +427,7 @@ marquee{
 	border-style: none;
 }
 
-.dataSets{
+.subCont{
 	padding-top: 6%;
 	display: none;
 }
@@ -368,7 +441,7 @@ marquee{
 	position: relative;
 	float: left;
 	width: 100%;
-	border: .5px dashed white;
+	border: thin dashed white;
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
 	color: #ffffff;

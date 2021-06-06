@@ -23,7 +23,7 @@ body.cb{
   	right: 5%;
 	width: 90%;
 	height: 90%;
-	border: 1px dashed white;
+	border: thin dashed white;
 }
 
 /* /////////////////// MEDIA SCREEN  ////////////////////// */
@@ -38,7 +38,7 @@ body.cb{
 	padding: 0%;
 	width: 99.5%;
 	height: 99.5%;
-	border: 1px dashed white;
+	border: thin dashed white;
 
 }
 
@@ -56,7 +56,7 @@ body.cb{
 	padding: 0%;
 	width: 99.5%;
 	height: 99.5%;
-	border: 1px dashed white;
+	border: thin dashed white;
 
 }
 
