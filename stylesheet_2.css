@@ -163,7 +163,7 @@ marquee{
 }
 
 .cntrls{
-	top: 94%;
+	top: 95%;
 	position: fixed;
 }
 
@@ -375,5 +375,9 @@ marquee{
 	background-color: #ffffff;
 	color: #000000;
 
+}
+
+.cntrls{
+	display: none;
 }
 }
