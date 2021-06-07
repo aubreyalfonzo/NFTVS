@@ -13,7 +13,6 @@ function setup() {
   background(0);
 
   
-  
   // noFill();
   // strokeWeight(.1);
 
@@ -23,7 +22,7 @@ function draw() {
   // background(220);
   normalMaterial();
   
-  translate(0, height / 2.2);
+  translate(0, height / 2);
 	rotateY(PI / 1.335);
 	rotateX(PI / 2);
 	// let manip = sin(random(-width*2, width*2)+frameCount*.005);
@@ -34,6 +33,7 @@ function draw() {
 
   model(obj[index]);
 
+  
 }
 
 function mousePressed() {

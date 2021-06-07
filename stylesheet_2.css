@@ -164,7 +164,7 @@ marquee.info{
 
 
 
-/* /////////////////////// custom divs ////////////////////// */
+/* /////////////////////// CUSTOM DIVS ////////////////////// */
 
 .header{
 	text-align: center;
@@ -174,7 +174,7 @@ marquee.info{
 	position: fixed;
 	width: 100%;
 	border: thin dashed white;
-	z-index: 1;
+	z-index: 2;
 	background-color: #000000;
 	float: all;
 
@@ -263,11 +263,18 @@ marquee.info{
 	/*border-left: .5px dashed white;*/
 }
 
+.svL{
+	position: fixed;
+	z-index: 1;
+}
+
 /*.collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
 
 }*/
+
+/* /////////////////// OUTSOURCED DIVS  ////////////////////// */
 
 /* /////////////////// MEDIUM SCREEN  ////////////////////// */
 
@@ -334,7 +341,7 @@ marquee.info{
 }
 
 .subCont{
-	padding-top: 6%;
+	padding-top: 2%;
 	display: none;
 }
 
@@ -345,7 +352,7 @@ marquee.info{
 	margin: 0;
 	display: block;
 	position: relative;
-	float: left;
+	float: all;
 	width: 100%;
 	border: thin dashed white;
 	text-align: center;
@@ -428,7 +435,7 @@ marquee.info{
 }
 
 .subCont{
-	padding-top: 6%;
+	padding-top: 2%;
 	display: none;
 }
 
@@ -439,7 +446,7 @@ marquee.info{
 	margin: 0;
 	display: block;
 	position: relative;
-	float: left;
+	float: all;
 	width: 100%;
 	border: thin dashed white;
 	text-align: center;

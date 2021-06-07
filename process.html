@@ -13,6 +13,7 @@
 
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+		
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -69,13 +70,25 @@ The overall goal and object of my research is to explore the NFT space as object
 	<hr class="a">
 			</div>
 			<button type="button" class="collapsible">SKETCHBOOK</button>
-			<div class="subCont"></div>
+			<div class="subCont">
+				<h2>SKETCHBOOK</h2>
+				<hr class="a">
+			</div>
 			<button type="button" class="collapsible">OBERSVATIONS</button>
-			<div class="subCont"></div>
+			<div class="subCont">
+				<h2>OBSERVATIONS</h2>
+				<hr class="a">
+			</div>
 			<button type="button" class="collapsible">DATA_SCAPES</button>
-			<div class="subCont"></div>
+			<div class="subCont">
+				<h2>DATA_SCAPE_PROCESS</h2>
+				<hr class="a">
+			</div>
 			<button type="button" class="collapsible">WRITING</button>
-			<div class="subCont"></div>
+			<div class="subCont">
+				<h2>WRITING / FINAL THOUGHTS</h2>
+				<hr class="a">
+			</div>
 			<div class="espace"></div>
 		</div>
 
@@ -98,7 +111,7 @@ var i;
 
 for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
-    // this.classList.toggle("active");
+    this.classList.toggle("active");
     var content = this.nextElementSibling;
     if (content.style.display === "block") {
       content.style.display = "none";
