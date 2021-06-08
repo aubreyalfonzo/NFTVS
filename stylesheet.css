@@ -24,7 +24,7 @@ body.cb{
 	width: 90%;
 	height: 90%;
 	border-style: none;
-	border: thin dashed rgb(0, 255, 0);
+	border: thin dashed rgb(255, 255, 255);
 }
 
 /* /////////////////// MEDIA SCREEN  ////////////////////// */
@@ -39,7 +39,7 @@ body.cb{
 	padding: 0%;
 	width: 99.5%;
 	height: 99.5%;
-	border: thin dashed rgb(0, 255, 0);
+	border: thin dashed rgb(255, 255, 255);
 
 }
 
@@ -57,7 +57,7 @@ body.cb{
 	padding: 0%;
 	width: 99.5%;
 	height: 99.5%;
-	border: thin dashed rgb(0, 255, 0);
+	border: thin dashed rgb(255, 255, 255);
 
 }
 

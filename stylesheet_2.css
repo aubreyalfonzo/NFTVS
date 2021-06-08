@@ -4,9 +4,7 @@ html.main{
 	margin:0;
 	padding:0;
 	background-color: #000000;
-	scroll-behavior: smooth;
-
-				
+	scroll-behavior: smooth;				
 }
 
 
@@ -16,14 +14,12 @@ body.main{
 	padding: 0%;
 	background-color: #000000;
 	z-index: 1;
-
 }
 
 ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-
 }
 
 a{
@@ -32,27 +28,23 @@ a{
 	display: block;
 	/*background-color: #4B4B4B;*/
 	background-color: rgb(0, 0, 255);
-
 }
 
 a:hover{
 	text-decoration: none;
 	color: #000000;
 	background-color: #ffffff;
-
 }
 
 a.imgL{
 	text-decoration: none;
 	display: block;
 	background-color: #000000;
-
 }
 
 a.imgL:hover{
 	text-decoration: none;
 	background-color: #000000;
-
 }
 
 
@@ -62,7 +54,6 @@ h1{
 	color: #ffffff;
 	font-size: 20px;
 	position: relative;
-
 }
 
 
@@ -72,7 +63,6 @@ h2{
 	color: #ffffff;
 	font-size: 20px;
 	position: relative;
-
 }
 
 h3{
@@ -82,7 +72,6 @@ h3{
 	font-size: 15px;
 	font-weight: 200;
 	position: relative;
-
 }
 
 
@@ -98,33 +87,29 @@ p{
 	padding:  1%;
 	/*overflow: scroll;*/
 	background-color: #000000;
-
 }
 
 hr.a{
 	border-style: none;
-  border-top: thin dotted rgb(255, 0, 0);
+  border-top: thin dotted rgb(255, 255, 255);
 }
 
 img{
 	width: 100%;
-
 }
 
 .imgLink{
 
 	width: 100%;
 	border-style: none;
-	border: thin dotted rgb(0, 255, 0);
+	border: thin dotted rgb(255, 255, 255);
 	transition: .2s;
-
 }
 
 .imgLink:hover{
 
 	width: 100%;
 	opacity: 0.5;
-
 }
 
 
@@ -169,7 +154,6 @@ marquee.info{
 }
 
 
-
 /* /////////////////////// CUSTOM DIVS ////////////////////// */
 
 .header{
@@ -179,11 +163,10 @@ marquee.info{
 	font-size: 20px;
 	position: fixed;
 	width: 100%;
-	border: thin dashed rgb(0, 255, 0);
+	border: thin dashed rgb(255, 255, 255);
 	z-index: 2;
 	background-color: #000000;
 	float: all;
-
 }
 
 .cntrls{
@@ -209,20 +192,17 @@ marquee.info{
 	grid-column-gap: 3%;
 	grid-row-gap: 3%;
 	/*border: .5px dashed white;*/
-
 }
 
 .grid-container2{
 	display: grid;
 	grid-template-columns: auto auto;
 	/*border: .5px dashed white;*/
-
 }
 
 .grid-item{
 	/*border: .5px dashed white;*/
 	/*padding-left: 2%;*/
-
 }
 
 
@@ -245,7 +225,7 @@ marquee.info{
 	position: fixed;
 	left: 40%;
 	overflow: scroll;
-	border-left: thin dashed rgb(0, 255, 0);
+	border-left: thin dashed rgb(255, 255, 255);
 }
 
 .nftvCont{
@@ -286,18 +266,16 @@ marquee.info{
 	width: 100%;
 	border-style: none;
 	transition: .2s;
-
 }
 
 .imgLink:hover{
 
 	width: 100%;
 	opacity: 0.5;
-
 }
 
 .cont{
-	padding-top: 4%;
+	padding-top: 50px;
 	margin: 0;
 	padding-left: 1%;
 	padding-right: 1%;
@@ -305,7 +283,6 @@ marquee.info{
 	/*overflow: scroll;*/
 	background-color: #000000;
 	/*-webkit-backface-visibility: hidden;*/
-
 }	
 
 .infoCont{
@@ -313,7 +290,7 @@ marquee.info{
 	/*padding-top: 3%;*/
 	position: relative;
 	width: 99%;
-	display: block;
+	display: none;
 	/*overflow: scroll;*/
 }
 
@@ -347,21 +324,23 @@ marquee.info{
 	border-style: none;
 	margin: 0;
 	display: block;
-	position: relative;
+	position: fixed;
+	left: 0;
+	top: 27px;
 	float: all;
 	width: 100%;
 	border: thin dashed white;
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
-	color: #000000;
+	color: #ffffff;
 	font-size: 20px;
-	background-color: rgb(0, 255, 0);
+	background-color: rgb(0, 0, 0);
+	z-index: 1;
 }
 
 .collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
-
 }
 
 }
@@ -381,25 +360,22 @@ marquee.info{
 .grid-container{
 	display: grid;
 	grid-template-columns: auto;
-
 }
 
 .grid-container2{
 	display: grid;
 	grid-template-columns: auto;
-
 }
 
 
 .cont{
-	padding-top: 7%;
+	/*padding-top: 7%;*/
 	padding-left: 1%;
 	padding-right: 1%;
 	padding-bottom: 1%;
 	/*overflow: scroll;*/
 	background-color: #000000;
 	/*-webkit-backface-visibility: hidden;*/
-
 }	
 
 .infoCont{
@@ -436,7 +412,7 @@ marquee.info{
 }
 
 
-.collapsible{
+/*.collapsible{
 	padding: 0%;
 	border-style: none;
 	margin: 0;
@@ -447,15 +423,14 @@ marquee.info{
 	border: thin dashed white;
 	text-align: center;
 	font-family: 'Roboto Mono', monospace;
-	color: #000000;
+	color: #ffffff;
 	font-size: 20px;
-	background-color: rgb(0, 255, 0);
-}
+	background-color: rgb(0, 0, 0);
+}*/
 
 .collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
-
 }
 
 .cntrls{
