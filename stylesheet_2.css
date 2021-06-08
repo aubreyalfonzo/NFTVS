@@ -179,7 +179,7 @@ marquee.info{
 	font-size: 20px;
 	position: fixed;
 	width: 100%;
-	border: thin dashed white;
+	border: thin dashed rgb(0, 255, 0);
 	z-index: 2;
 	background-color: #000000;
 	float: all;
@@ -225,18 +225,6 @@ marquee.info{
 
 }
 
-.labtxt{
-	border: .thin dashed white;
-}
-/* images */
-
-.img1{
-}
-
-.lab_img{
-	border: thin dashed white;
-
-}
 
 .infoCont{
 	padding: 1%;
@@ -257,7 +245,7 @@ marquee.info{
 	position: fixed;
 	left: 40%;
 	overflow: scroll;
-	border-left: thin dashed white;
+	border-left: thin dashed rgb(0, 255, 0);
 }
 
 .nftvCont{
