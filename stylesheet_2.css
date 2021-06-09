@@ -244,6 +244,23 @@ marquee.info{
 	z-index: 1;
 }
 
+/*.navL{
+	background-color: #000000;
+	color: #ffffff;
+	position: relative;
+	float: left;
+	border-style: none;
+}
+
+.navR{
+	background-color: #000000;
+	color: #ffffff;
+	position: relative;
+	float: right;
+	border-style: none;
+}*/
+
+
 /*.collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
