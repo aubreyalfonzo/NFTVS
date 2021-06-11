@@ -1,0 +1,64 @@
+html.ch{
+	margin:0;
+	padding:0;
+	background-color: #000000;
+				
+}
+
+
+body.cb{
+	margin: 0;
+	overflow: hidden;
+	background-color: #000000;
+	z-index: 1;
+}
+
+
+.contFrame{
+	position: fixed;
+	overflow: hidden;
+	top: 5%;
+  	left: 5%;
+  	bottom: 5%;
+  	right: 5%;
+	width: 90%;
+	height: 90%;
+	border-style: none;
+	border: thin dashed rgb(255, 255, 255);
+}
+
+/* /////////////////// MEDIA SCREEN  ////////////////////// */
+
+@media screen and (max-width:  1200px){
+
+	.contFrame{
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	padding: 0%;
+	width: 99.5%;
+	height: 99.5%;
+	border: thin dashed rgb(255, 255, 255);
+
+}
+
+}
+
+/* /////////////////// SMALL SCREEN  ////////////////////// */
+
+@media screen and (max-width:  600px){
+
+.contFrame{
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	padding: 0%;
+	width: 99.5%;
+	height: 99.5%;
+	border: thin dashed rgb(255, 255, 255);
+
+}
+
+}

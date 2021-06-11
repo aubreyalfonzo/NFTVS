@@ -244,6 +244,10 @@ marquee.info{
 	z-index: 1;
 }
 
+.dispCont{
+	position: relative;
+}
+
 /*.navL{
 	background-color: #000000;
 	color: #ffffff;

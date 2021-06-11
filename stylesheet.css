@@ -1,16 +1,86 @@
-html.ch{
+/* ////////////////// global values /////////////////// */
+
+html.main{
 	margin:0;
 	padding:0;
 	background-color: #000000;
-				
+	scroll-behavior: smooth;			
 }
 
 
-body.cb{
+body.main{
 	margin: 0;
-	overflow: hidden;
+	overflow: scroll;
+	padding: 0%;
 	background-color: #000000;
 	z-index: 1;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	/*background-color: #4B4B4B;*/
+	background-color: rgb(0, 0, 255);
+}
+
+a:hover{
+	text-decoration: none;
+	color: #000000;
+	background-color: #ffffff;
+}
+
+a.imgL{
+	text-decoration: none;
+	display: block;
+	background-color: #000000;
+}
+
+a.imgL:hover{
+	text-decoration: none;
+	background-color: #000000;
+}
+
+
+h1{
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-size: 20px;
+	position: relative;
+}
+
+
+h2{
+	text-align: left;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-size: 20px;
+	position: relative;
+}
+
+h3{
+	text-align: left;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 200;
+	position: relative;
+}
+
+
+p{
+	text-align: left;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-size: 15px;
+	position: relative;
 }
 
 
@@ -27,38 +97,326 @@ body.cb{
 	border: thin dashed rgb(255, 255, 255);
 }
 
-/* /////////////////// MEDIA SCREEN  ////////////////////// */
+hr.a{
+	border-style: none;
+  border-top: thin dotted rgb(255, 255, 255);
+}
+
+img{
+	width: 100%;
+}
+
+.imgLink{
+
+	width: 100%;
+	border-style: none;
+	border: thin dotted rgb(255, 255, 255);
+	transition: .2s;
+}
+
+.imgLink:hover{
+
+	width: 100%;
+	opacity: 0.5;
+}
+
+
+::-webkit-scrollbar{
+	width: 0;
+	height: 0;
+}
+
+.espace{
+	height: 5%;
+}
+
+li{
+	float: left;
+	/*border: .5px dashed white;*/
+	/*width: 49.8%;*/
+	width: 33.3%;
+}
+
+li.subLi{
+	float:  left;
+	width: 25%;
+}
+
+marquee{
+	position: fixed;
+	width: 88%;
+}
+
+marquee.info{
+	position: relative;
+	width: 100%;
+}
+
+.collapsible{
+	display: none;
+}
+
+.subCont{
+	padding-top: 1%;
+	margin: 0;
+}
+
+
+/* /////////////////////// CUSTOM DIVS ////////////////////// */
+
+.header{
+	text-align: center;
+	/*background-color: #000000;*/
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	position: fixed;
+	width: 89.9%;
+	border: thin dashed rgb(255, 255, 255);
+	z-index: 2;
+	background-color: #000000;
+	float: all;
+}
+
+.cntrls{
+	top: 94%;
+	position: fixed;
+}
+
+.tvMenu{
+	text-align: center;
+	/*background-color: #000000;*/
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	/*background-color: #000000;*/
+	float: left;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 3%;
+	grid-row-gap: 3%;
+	/*border: .5px dashed white;*/
+}
+
+.grid-container2{
+	display: grid;
+	grid-template-columns: auto auto;
+	/*border: .5px dashed white;*/
+}
+
+
+.infoCont{
+	padding-top: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin: 0;
+	/*padding-right: 2%;*/
+	position: fixed;
+	width: 30%;
+	height: 86%;
+	/*border-right: .5px dashed white;*/
+	overflow: scroll;
+	/*display: none;*/
+}
+
+.mainCont{
+	padding-top: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 56%;
+	height: 86%;
+	position: fixed;
+	left: 37%;
+	overflow: scroll;
+	border-left: thin dashed rgb(255, 255, 255);
+}
+
+.nftvCont{
+	padding: 1%;
+	width: 88%;
+	height: 88%;
+	position: fixed;
+	/*left: 40%;*/
+	overflow: scroll;
+	/*border-left: .5px dashed white;*/
+}
+
+.svL{
+	position: fixed;
+	z-index: 1;
+}
+
+.dispCont{
+	position: relative;
+	padding: 0%;
+}
+
+/* /////////////////// OUTSOURCED DIVS  ////////////////////// */
+
+/* /////////////////// MEDIUM SCREEN  ////////////////////// */
 
 @media screen and (max-width:  1200px){
 
-	.contFrame{
+.header{
+	text-align: center;
+	/*background-color: #000000;*/
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
 	position: fixed;
-	left: 0;
-	top: 0;
+	width: 99.3%;
+	border: thin dashed rgb(255, 255, 255);
+	z-index: 2;
+	background-color: #000000;
+	float: all;
+}
+
+.imgLink{
+
+	width: 100%;
+	border-style: none;
+	transition: .2s;
+}
+
+.imgLink:hover{
+
+	width: 100%;
+	opacity: 0.5;
+}
+
+.contFrame{
+	position: fixed;
 	overflow: hidden;
-	padding: 0%;
+	top: 0%;
+  	left: 0%;
+  	bottom: 0%;
+  	right: 0%;
 	width: 99.5%;
 	height: 99.5%;
+	border-style: none;
 	border: thin dashed rgb(255, 255, 255);
+}	
 
+.infoCont{
+	padding: 1%;
+	top: 40px;
+	/*padding-top: 3%;*/
+	position: relative;
+	width: 99%;
+	height: 100%;
+	display: none;
+	/*overflow: scroll;*/
+}
+
+.mainCont{
+	padding: 1%;
+	top: 40px;
+	width: 99%;
+	height: 100%;
+	left: 0;
+	/*height: 100%;*/
+	position: relative;
+	border-style: none;
+	/*overflow: scroll;*/
+}
+
+marquee{
+	position: fixed;
+	width: 97%;
+}
+
+.nftvCont{
+	padding: 1%;
+	top: 10px;
+	width: 98%;
+	left: 0;
+	/*height: 100%;*/
+	position: relative;
+	border-style: none;
+}
+
+.subCont{
+	padding-top: 2%;
+	display: none;
+}
+
+
+.collapsible{
+	padding: 0%;
+	border-style: none;
+	margin: 0;
+	display: block;
+	position: fixed;
+	left: 0;
+	top: 27px;
+	float: all;
+	width: 99.7%;
+	border: thin dashed white;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	color: #ffffff;
+	font-size: 20px;
+	background-color: rgb(0, 0, 0);
+	z-index: 1;
+}
+
+.collapsible:hover{
+	background-color: #ffffff;
+	color: #000000;
 }
 
 }
+
+
 
 /* /////////////////// SMALL SCREEN  ////////////////////// */
 
 @media screen and (max-width:  600px){
 
-.contFrame{
-	position: fixed;
-	left: 0;
-	top: 0;
-	overflow: hidden;
-	padding: 0%;
-	width: 99.5%;
-	height: 99.5%;
-	border: thin dashed rgb(255, 255, 255);
-
+.grid-container{
+	display: grid;
+	grid-template-columns: auto;
 }
 
+/*.grid-container2{
+	display: grid;
+	grid-template-columns: auto;
+}*/
+
+.infoCont{
+	padding: 1%;
+	/*padding-top: 3%;*/
+	position: relative;
+	width: 99%;
+	display: none;
+	/*overflow: scroll;*/
+}
+
+.mainCont{
+	padding: 1%;
+	width: 99%;
+	left: 0;
+	/*height: 100%;*/
+	position: relative;
+	border-style: none;
+	/*overflow: scroll;*/
+}
+
+.subCont{
+	padding-top: 2%;
+	display: none;
+}
+
+
+.collapsible:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+/*.cntrls{
+	display: none;
+}*/
 }
