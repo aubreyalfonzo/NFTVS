@@ -245,10 +245,6 @@ marquee.info{
 	/*border-left: .5px dashed white;*/
 }
 
-.svL{
-	position: fixed;
-	z-index: 1;
-}
 
 .dispCont{
 	position: relative;
