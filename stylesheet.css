@@ -98,6 +98,11 @@ p{
 	z-index: 1;
 }
 
+#jsCont{
+	position: fixed;
+}
+
+
 hr.a{
 	border-style: none;
   border-top: thin dotted rgb(255, 255, 255);

@@ -8,7 +8,9 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
+  let myCanv = createCanvas(windowWidth, windowHeight, WEBGL);
+  // myCanv.parent("jsCont");
+
   frameRate(10);
   background(0);
 
