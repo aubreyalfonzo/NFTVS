@@ -203,8 +203,8 @@ marquee.info{
 .grid-container{
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-column-gap: 3%;
-	grid-row-gap: 3%;
+	grid-column-gap: 1%;
+	grid-row-gap: 1%;
 	/*border: .5px dashed white;*/
 }
 
@@ -244,7 +244,7 @@ marquee.info{
 .nftvCont{
 	padding: 1%;
 	width: 88%;
-	height: 88%;
+	height: 86%;
 	position: fixed;
 	/*left: 40%;*/
 	overflow: scroll;
@@ -343,6 +343,7 @@ marquee{
 	padding: 1%;
 	top: 10px;
 	width: 98%;
+	height: 100%;
 	left: 0;
 	/*height: 100%;*/
 	position: relative;
@@ -387,10 +388,10 @@ marquee{
 
 @media screen and (max-width:  600px){
 
-.grid-container{
+/*.grid-container{
 	display: grid;
 	grid-template-columns: auto;
-}
+}*/
 
 /*.grid-container2{
 	display: grid;
