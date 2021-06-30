@@ -270,6 +270,10 @@ iframe.data, iframe.data2{
 	display: block;
 }
 
+img.mob{
+	display: none;
+}
+
 /* /////////////////// OUTSOURCED DIVS  ////////////////////// */
 
 /* /////////////////// MEDIUM SCREEN  ////////////////////// */
@@ -391,6 +395,10 @@ iframe.data2{
 .collapsible:hover{
 	background-color: #ffffff;
 	color: #000000;
+}
+
+img.mob{
+	display: block;
 }
 
 }
