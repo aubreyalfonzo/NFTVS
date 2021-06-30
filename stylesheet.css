@@ -162,7 +162,7 @@ marquee.info{
 	margin: 0;
 }
 
-iframe.data{
+iframe.data, iframe.data2{
 	position: relative;
 	width: 100%;
 	height: 50%;
@@ -348,13 +348,8 @@ marquee{
 	width: 97%;
 }
 
-iframe.data{
-	position: relative;
-	width: 100%;
-	height: 25%;
-	border-style: none;
-	/*border: thin dashed rgb(255, 255, 255);*/
-	overflow: hidden;
+iframe.data2{
+	display: none;
 }
 
 .nftvCont{
