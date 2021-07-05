@@ -225,27 +225,25 @@ iframe.data, iframe.data2{
 
 
 .infoCont{
+	float: left;
 	padding-top: 2%;
 	padding-left: 1%;
 	padding-right: 1%;
 	margin: 0;
-	/*padding-right: 2%;*/
-	position: fixed;
+	position: relative;
 	width: 30%;
-	height: 86%;
-	/*border-right: .5px dashed white;*/
+	height: 100%;
 	overflow: scroll;
-	/*display: none;*/
 }
 
 .mainCont{
+	float: left;
 	padding-top: 2%;
 	padding-left: 1%;
 	padding-right: 1%;
-	width: 56%;
-	height: 86%;
-	position: fixed;
-	left: 37%;
+	width: 65.9%;
+	height: 100%;
+	position: relative;
 	overflow: scroll;
 	border-left: thin dashed rgb(255, 255, 255);
 }
@@ -325,26 +323,23 @@ img.mob{
 }	
 
 .infoCont{
+	float: left;
 	padding: 1%;
 	top: 40px;
-	/*padding-top: 3%;*/
 	position: relative;
 	width: 98%;
 	height: 100%;
 	display: none;
-	/*overflow: scroll;*/
 }
 
 .mainCont{
+	float: left;
 	padding: 1%;
 	top: 40px;
 	width: 98%;
 	height: 100%;
-	left: 0;
-	/*height: 100%;*/
 	position: relative;
 	border-style: none;
-	/*overflow: scroll;*/
 }
 
 marquee{
@@ -420,22 +415,19 @@ img.mob{
 }*/
 
 .infoCont{
+	float: left;
 	padding: 1%;
-	/*padding-top: 3%;*/
 	position: relative;
 	width: 98%;
 	display: none;
-	/*overflow: scroll;*/
 }
 
 .mainCont{
+	float: left;
 	padding: 1%;
 	width: 98%;
-	left: 0;
-	/*height: 100%;*/
 	position: relative;
 	border-style: none;
-	/*overflow: scroll;*/
 }
 
 .subCont{
