@@ -146,6 +146,7 @@ li.subLi{
 marquee{
 	position: fixed;
 	width: 88%;
+	/*z-index: 2;*/
 }
 
 marquee.info{
