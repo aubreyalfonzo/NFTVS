@@ -84,24 +84,6 @@ p{
 }
 
 
-.contFrame{
-	position: fixed;
-	overflow: hidden;
-	top: 5%;
-  	left: 5%;
-  	bottom: 5%;
-  	right: 5%;
-	width: 90%;
-	height: 90%;
-	border-style: none;
-	border: thin dashed rgb(255, 255, 255);
-	z-index: 2;
-}
-
-#jsCont{
-	position: fixed;
-}
-
 
 hr.a{
 	border-style: none;
@@ -112,24 +94,6 @@ img{
 	width: 100%;
 }
 
-.imgLink{
-
-	width: 100%;
-	border-style: none;
-	border: thin dotted rgb(255, 255, 255);
-	transition: .2s;
-}
-
-.imgLink:hover{
-
-	width: 100%;
-	opacity: 0.5;
-}
-
-
-.espace{
-	height: 5%;
-}
 
 li{
 	float: left;
@@ -154,14 +118,6 @@ marquee.info{
 	width: 100%;
 }
 
-.collapsible{
-	display: none;
-}
-
-.subCont{
-	padding-top: 1%;
-	margin: 0;
-}
 
 iframe.data, iframe.data2{
 	position: relative;
@@ -172,6 +128,7 @@ iframe.data, iframe.data2{
 	overflow: hidden;
 }
 
+
 ::-webkit-scrollbar{
 	width: 0;
 	height: 0;
@@ -179,6 +136,52 @@ iframe.data, iframe.data2{
 
 
 /* /////////////////////// CUSTOM DIVS ////////////////////// */
+
+.contFrame {
+	position: fixed;
+	overflow: hidden;
+	top: 5%;
+  	left: 5%;
+  	bottom: 5%;
+  	right: 5%;
+	width: 90%;
+	height: 90%;
+	border-style: none;
+	border: thin dashed rgb(255, 255, 255);
+	z-index: 2;
+}
+
+#jsCont{
+	position: fixed;
+}
+
+.imgLink{
+
+	width: 100%;
+	border-style: none;
+	/*border: thin dotted rgb(255, 255, 255);*/
+	transition: .2s;
+}
+
+.imgLink:hover{
+
+	width: 100%;
+	opacity: 0.5;
+}
+
+
+.espace{
+	height: 5%;
+}
+
+.collapsible{
+	display: none;
+}
+
+.subCont{
+	padding-top: 1%;
+	margin: 0;
+}
 
 .header{
 	text-align: center;
@@ -264,6 +267,7 @@ iframe.data, iframe.data2{
 	position: relative;
 	padding: 0%;
 }
+
 
 .headLine{
 	display: block;
