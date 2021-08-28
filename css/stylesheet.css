@@ -238,6 +238,7 @@ iframe.data, iframe.data2{
 	width: 30%;
 	height: 100%;
 	overflow: scroll;
+	-webkit-overflow:  scroll;
 }
 
 .mainCont{
@@ -250,6 +251,7 @@ iframe.data, iframe.data2{
 	position: relative;
 	overflow: scroll;
 	border-left: thin dashed rgb(255, 255, 255);
+	-webkit-overflow:  scroll;
 }
 
 .nftvCont{
