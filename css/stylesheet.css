@@ -148,7 +148,7 @@ iframe.data, iframe.data2{
 	height: 90%;
 	border-style: none;
 	border: thin dashed rgb(255, 255, 255);
-	z-index: 3;
+	z-index: 5;
 }
 
 #jsCont{
@@ -236,7 +236,7 @@ iframe.data, iframe.data2{
 	margin: 0;
 	position: relative;
 	width: 30%;
-	height: 96%;
+	height: 95.8%;
 	overflow: scroll;
 	-webkit-overflow:  scroll;
 	z-index: -2;
@@ -248,7 +248,7 @@ iframe.data, iframe.data2{
 	padding-left: 1%;
 	padding-right: 1%;
 	width: 65.9%;
-	height: 70%;
+	height: 95.8%;
 	position: relative;
 	overflow: scroll;
 	border-left: thin dashed rgb(255, 255, 255);
