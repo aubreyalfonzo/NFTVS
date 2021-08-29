@@ -248,7 +248,7 @@ iframe.data, iframe.data2{
 	padding-left: 1%;
 	padding-right: 1%;
 	width: 65.9%;
-	height: 96%;
+	height: 70%;
 	position: relative;
 	overflow: scroll;
 	border-left: thin dashed rgb(255, 255, 255);
@@ -263,7 +263,7 @@ iframe.data, iframe.data2{
 	position: fixed;
 	/*left: 40%;*/
 	overflow: scroll;
-	z-index: 1;
+	z-index: -1;
 	/*border-left: .5px dashed white;*/
 }
 
