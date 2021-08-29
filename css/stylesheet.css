@@ -137,7 +137,7 @@ iframe.data, iframe.data2{
 
 /* /////////////////////// CUSTOM DIVS ////////////////////// */
 
-.contFrame {
+/*.contFrame {
 	position: fixed;
 	overflow: hidden;
 	top: 5%;
@@ -149,7 +149,7 @@ iframe.data, iframe.data2{
 	border-style: none;
 	border: thin dashed rgb(255, 255, 255);
 	z-index: 3;
-}
+}*/
 
 #jsCont{
 	position: fixed;
@@ -265,6 +265,20 @@ iframe.data, iframe.data2{
 	overflow: scroll;
 	z-index: 1;
 	/*border-left: .5px dashed white;*/
+}
+
+.contFrame {
+	position: fixed;
+	overflow: hidden;
+	top: 5%;
+  	left: 5%;
+  	bottom: 5%;
+  	right: 5%;
+	width: 90%;
+	height: 90%;
+	border-style: none;
+	border: thin dashed rgb(255, 255, 255);
+	z-index: 3;
 }
 
 
