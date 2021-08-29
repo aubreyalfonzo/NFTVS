@@ -251,7 +251,7 @@ iframe.data, iframe.data2{
 	position: relative;
 	overflow: scroll;
 	border-left: thin dashed rgb(255, 255, 255);
-	-webkit-overflow:  scroll;
+	clip: inherit;
 }
 
 .nftvCont{
