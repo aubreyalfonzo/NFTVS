@@ -137,7 +137,7 @@ iframe.data, iframe.data2{
 
 /* /////////////////////// CUSTOM DIVS ////////////////////// */
 
-/*.contFrame {
+.contFrame {
 	position: fixed;
 	overflow: hidden;
 	top: 5%;
@@ -149,7 +149,7 @@ iframe.data, iframe.data2{
 	border-style: none;
 	border: thin dashed rgb(255, 255, 255);
 	z-index: 3;
-}*/
+}
 
 #jsCont{
 	position: fixed;
@@ -236,7 +236,7 @@ iframe.data, iframe.data2{
 	margin: 0;
 	position: relative;
 	width: 30%;
-	height: 98%;
+	height: 96%;
 	overflow: scroll;
 	-webkit-overflow:  scroll;
 	z-index: -2;
@@ -248,7 +248,7 @@ iframe.data, iframe.data2{
 	padding-left: 1%;
 	padding-right: 1%;
 	width: 65.9%;
-	height: 98%;
+	height: 96%;
 	position: relative;
 	overflow: scroll;
 	border-left: thin dashed rgb(255, 255, 255);
@@ -265,20 +265,6 @@ iframe.data, iframe.data2{
 	overflow: scroll;
 	z-index: 1;
 	/*border-left: .5px dashed white;*/
-}
-
-.contFrame {
-	position: fixed;
-	overflow: hidden;
-	top: 5%;
-  	left: 5%;
-  	bottom: 5%;
-  	right: 5%;
-	width: 90%;
-	height: 90%;
-	border-style: none;
-	border: thin dashed rgb(255, 255, 255);
-	z-index: 3;
 }
 
 
