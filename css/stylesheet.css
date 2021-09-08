@@ -110,7 +110,7 @@ li.subLi{
 marquee{
 	position: fixed;
 	width: 88%;
-	/*z-index: 2;*/
+	z-index: 1;
 }
 
 marquee.info{
@@ -126,6 +126,15 @@ iframe.data, iframe.data2{
 	border-style: none;
 	/*border: thin dashed rgb(255, 255, 255);*/
 	overflow: hidden;
+}
+
+.iframeCont iframe{
+	border: 0;
+   height: 100%;
+   left: 0;
+   position: relative;
+   top: 0;
+   width: 100%;
 }
 
 
@@ -153,6 +162,7 @@ iframe.data, iframe.data2{
 
 #jsCont{
 	position: fixed;
+	z-index: -2;
 }
 
 .imgLink{
